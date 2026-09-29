@@ -1,10 +1,10 @@
 # Saffron Quality Gate (SQG)
 
-**The world's first executable AI-quality gate.**
+**An executable quality gate for code, content and configuration.**
 
 SQG is a production-grade quality enforcement engine that scans code, content, config, and design against 36 prohibited anti-slop patterns (A-001 through A-036) and scores deliverables across 14 quality dimensions — correctness, security, resilience, maintainability, usability, and more.
 
-Built by the Saffron AI Group — the global leaders in AI quality engineering.
+Built by [Saffron](https://saffronsystems.io), an applied-intelligence and software engineering company in Minneapolis. SQG flags known failure patterns; it cannot prove that a codebase is correct, and it is not a substitute for tests or review.
 
 ## Quick Start
 
@@ -102,4 +102,4 @@ echo '#!/bin/sh\nsqg scan --path . --format summary || exit 1' > .git/hooks/pre-
 
 ---
 
-**Saffron AI Group** — Setting the standard the rest of AI will be measured against.
+**[Saffron](https://saffronsystems.io)** · Minneapolis, Minnesota · Nothing can match the human touch.
