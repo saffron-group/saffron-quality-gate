@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "brand": "saffron",
+  "organization_id": "saffron-group",
+
+  "harmonic_scale": {
+    "0px": "var(--radius-none)",
+    "3px": "var(--radius-sm)   [saffron-obsidian]",
+    "4px": "var(--spacing-xs)  or var(--radius-sm)",
+    "6px": "var(--radius-md)   [saffron-obsidian]",
+    "8px": "var(--spacing-sm)  or var(--radius-md)",
+    "10px": "var(--radius-lg)  [saffron-obsidian]",
+    "12px": "var(--radius-lg)",
+    "16px": "var(--spacing-md)",
+    "24px": "var(--spacing-lg)",
+    "48px": "var(--spacing-xl)",
+    "96px": "var(--spacing-xxl)",
+    "160px": "var(--spacing-section)  [saffron-designs only]",
+    "9999px": "var(--radius-full)  [status badges only]"
+  },
+
+  "allowed_brand_colors": [
+    "navy", "gold", "ivory", "ink", "muted", "line", "primary",
+    "on-navy", "on-gold", "on-ivory", "on-ink", "on-saffron", "on-ground",
+    "saffron",
+    "ground", "ground-2", "panel", "panel-2", "ink-2", "faint",
+    "line-2", "gold-deep", "gold-root", "gold-tip",
+    "success", "danger", "warning"
+  ],
+
+  "banned_colors_in_brand_context": [
+    "blue", "indigo", "violet", "purple", "sky", "cyan", "teal",
+    "slate", "zinc", "neutral", "stone", "emerald", "lime", "fuchsia", "rose", "pink"
+  ],
+
+  "forbidden_clusters": [],
+
+  "semantic_domains": {
+    "text_colors": [
+      "ink", "ink-2", "ivory", "muted", "faint",
+      "gold", "saffron", "navy",
+      "on-navy", "on-gold", "on-ivory", "on-ink", "on-saffron", "on-ground"
+    ],
+    "surface_colors": [
+      "navy", "ink", "ivory", "gold", "saffron",
+      "ground", "ground-2", "panel", "panel-2",
+      "line", "line-2",
+      "success", "danger", "warning"
+    ]
+  }
+}
