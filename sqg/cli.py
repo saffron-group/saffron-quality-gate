@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SQG CLI — Saffron Quality Gate command-line interface."""
+"""SQG CLI: Saffron Quality Gate command-line interface."""
 import argparse, json, os, subprocess, sys, textwrap
 
 __version__ = "1.0.0"
@@ -11,10 +11,9 @@ GATE = os.path.join(HERMES_SCRIPTS, "saffron-gate-runner.sh")
 
 LOGO = """
 ╔══════════════════════════════════════════════╗
-║   SAFFRON QUALITY GATE                      ║
-║   The world's first executable AI-quality    ║
-║   gate — Setting the standard the rest       ║
-║   of AI will be measured against.            ║
+║   SAFFRON QUALITY GATE                       ║
+║   An executable quality gate for code,       ║
+║   content and configuration.                 ║
 ╚══════════════════════════════════════════════╝
 """
 
@@ -105,15 +104,15 @@ def cmd_check(args):
 def cmd_version(args):
     """sqg version"""
     print(f"SQG v{__version__}")
-    print("Saffron Quality Gate — The world's first executable AI-quality gate.")
-    print("© Saffron AI Group — saffronautomations.com/saffron-quality-gate")
+    print("Saffron Quality Gate: an executable quality gate for code, content and configuration.")
+    print("© Saffron · saffronsystems.io")
     return 0
 
 
 def main():
     parser = argparse.ArgumentParser(
         prog="sqg",
-        description="Saffron Quality Gate — executable AI-quality enforcement",
+        description="Saffron Quality Gate: executable quality enforcement",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=textwrap.dedent("""\
             Examples:
