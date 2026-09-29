@@ -1,4 +1,4 @@
-"""Saffron Quality Gate — The world's first executable AI-quality gate."""
+"""Saffron Quality Gate: an executable quality gate for code, content and configuration."""
 __version__ = "1.0.0"
-__author__ = "Saffron AI Group"
-__license__ = "Proprietary — Saffron AI Group"
+__author__ = "Saffron"
+__license__ = "Proprietary, Saffron"
